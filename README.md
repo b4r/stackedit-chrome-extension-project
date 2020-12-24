@@ -14,6 +14,8 @@ StackEdit.io must be running locally (`npm start`) for the extension to work - b
 
 * Open the extensions window or visit the address chrome://extensions
 
+* Activate Developer Mode on the top right corner.
+
 * Click the button "Load unpacked" currently near the top left corner.
 
 * Navigate to this repo and select to open the directory `stackedit.io-chrome-ext` - optionally, move the directory where you need it and point Chrome to the new location.
