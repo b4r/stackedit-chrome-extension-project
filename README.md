@@ -6,6 +6,9 @@ In order for this extension to work fully it will rely on https://github.com/ben
 
 StackEdit.io must be running locally (`npm start`) for the extension to work - by default the extension relies on access to the stackedit.io website.
 
+For information how to setup a local copy of stackedit.io server, check https://github.com/benweet/stackedit/issues/1697
+(this may change in the future)
+
 ## Steps
 
 * Clone this repo
