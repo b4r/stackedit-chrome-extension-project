@@ -9,6 +9,9 @@ StackEdit.io must be running locally (`npm start`) for the extension to work - b
 For information how to setup a local copy of stackedit.io server, check https://github.com/benweet/stackedit/issues/1697
 (this may change in the future)
 
+![image]
+(/b4r/stackedit-chrome-extension-project/blob/main/chrome-load-ext.png)
+
 ## Steps
 
 * Clone this repo
