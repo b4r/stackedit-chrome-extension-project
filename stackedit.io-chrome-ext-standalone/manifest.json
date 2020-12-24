@@ -1,0 +1,31 @@
+{
+   "browser_action": {
+      "default_icon": {
+         "128": "icon-128.png",
+         "16": "icon-16.png",
+         "256": "icon-256.png",
+         "32": "icon-32.png",
+         "512": "icon-512.png",
+         "64": "icon-64.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "content_scripts": [ {
+      "js": [ "contentScript.bundle.js" ],
+      "matches": [ "http://*/*", "https://*/*" ]
+   } ],
+   "description": "Add StackEdit to any web site that supports Markdown",
+   "icons": {
+      "128": "icon-128.png",
+      "16": "icon-16.png",
+      "256": "icon-256.png",
+      "32": "icon-32.png",
+      "512": "icon-512.png",
+      "64": "icon-64.png"
+   },
+   "manifest_version": 2,
+   "name": "Standalone StackEdit Markdown Extension",
+   "permissions": [ "storage" ],
+   "version": "1.0.4.2",
+   "web_accessible_resources": [ "icon.svg", "frame.html", "app.html", "app.js", "__webpack_hmr" ]
+}
